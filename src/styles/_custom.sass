@@ -2,13 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 42%
+    right: 78%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 72%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 24%
+    right: 15%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 42%        
 
 
 @keyframes float1
@@ -17,3 +27,148 @@
 
   100%
     transform: translateY(0px)
+
+
+.boton *, .boton--sm * 
+  color: #f3f9ff !important   
+  
+.bg1
+  background-image: url('../assets/curso/temas/tema1/img2.png')    
+  background-repeat: no-repeat
+  border-radius: 10px !important  
+
+.bg2
+    background-image: url('../assets/curso/temas/tema1/img3.png');
+    background-repeat: no-repeat
+    background-size: 2.5rem
+
+.bg3
+    background-image: url('../assets/curso/temas/tema1/img10.png');
+    background-repeat: no-repeat
+    background-size: cover 
+
+.bg4
+  background-image: url('../assets/curso/temas/tema1/img14.png')    
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  background-position: center 
+  border-radius: 10px !important 
+@media (max-width:500px)  
+    .bg6 
+      background-image: url('')   
+
+.mg-img
+   margin: -48px !important 
+
+@media (max-width:500px)   
+    .mg-img
+      margin: -0px !important        
+
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #000000
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #FEE4F0
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
+  &::before 
+    background-color: #E3F5F7 !important
+
+.crd--three
+  &::before 
+    background-color: #E3F5F7 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -21rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none    
+
+.tarjeta-ancho    
+  width: 346px !important
+
+.tarjeta-radius 
+  border-bottom-right-radius: 30px  !important
+
+.cajon:before 
+  height: 100% !important
+
+.bloque-img-left 
+    left: 50% !important
+
+.bloque-text-rigth
+   right: 39% !important    
+
+.cajon-second-color
+  background-color: #FEF2E4 !important
+
+.color-slider
+  background-color: #E3F5F7 !important  
+
+.color-borde-slider
+  border: solid 4px #D2E1F1 !important 
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+    background-color: #B0C0D2 !important 
+
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+    background-color: #B0C0D2 !important 
+
+.slyder-a__bullets__item--active
+    background-color: #206897 !important
+    border: none    
+
+.color-tarjeta-descargas 
+  background-color: #206897 !important
+
+.he-tarjetas
+  height: 392px !important
+
+.tarjeta-avatar
+  width: 370px !important
+  height: 630px !important
+
+.color-tarjeta-avatar
+  background-color: #E0EAF1 !important  
+
+.tarjeta-acordeon-verde
+    background-color: #FEF2E4 !important  
+
+.acordion__activo 
+    background-color: #E3F5F7 !important 
+    border: solid 4px #D2E1F1 !important 
+
+.color-tarjeta-rosa
+  background-color: #FEEBF4  !important
+
+.tabs-a__tab    
+  background-color: #FEEBF4 !important  
+
+
+.tabs-a__tab.tabs-a__tab__selected  
+  background-color: #F40B74 !important    
