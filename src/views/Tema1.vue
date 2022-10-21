@@ -39,8 +39,8 @@
                 figure
                   img(src="@/assets/curso/temas/tema1/img5.png", alt="alt").img100
               .col
-                h5 Entradas
-                p Se refieren a todos los elementos que se ameritan para dar inicio a un proceso. Las entradas son reconocidas, por la gerencia, como bienes intangibles donde la #[span.text-bold información] se presenta como la protagonista. La información se fundamenta en datos oportunos, pertinentes y precisos, que orientan hacia el logro de procesos efectivos de trabajo. Entre las entradas se cuentan también los requerimientos de procesos, el diseño organizacional y las necesidades del mercado, entre otras opciones. 
+                  h5 Entradas
+                  p Se refieren a todos los elementos que se ameritan para dar inicio a un proceso. Las entradas son reconocidas, por la gerencia, como bienes intangibles donde la #[span.text-bold información] se presenta como la protagonista. La información se fundamenta en datos oportunos, pertinentes y precisos, que orientan hacia el logro de procesos efectivos de trabajo. Entre las entradas se cuentan también los requerimientos de procesos, el diseño organizacional y las necesidades del mercado, entre otras opciones. 
 
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
@@ -165,7 +165,8 @@
               figure
                 img(src="@/assets/curso/temas/tema1/img11.png", alt="alt")
             .col-sm-7.mb-3
-              p.mt-5 El uso de los datos y convertirlos en información para las empresas que persiguen desarrollo organizacional y crecimiento en rentabilidad, no puede ser un asunto del azar y no puede ser un proceso empírico, es decir, no formalizado. Para eso se han creado los Sistemas de Información, los cuales son herramientas digitales, basadas en software especializados, que permiten la obtención, procesamiento y generación oportuna de información para la toma de decisiones. No se amerita el uso de Sistemas de Información altamente sofisticados, complejos o costosos; por el contrario, se buscan sistemas que se adapten a los procesos de la empresa, #[span.text-bold en función del tipo y la cantidad de datos a obtener, procesar y almacenar.] 
+              p.mt-5 El uso de los datos y convertirlos en información para las empresas que persiguen desarrollo organizacional y crecimiento en rentabilidad, no puede ser un asunto del azar y no puede ser un proceso empírico, es decir, no formalizado. 
+              p Para eso se han creado los Sistemas de Información, los cuales son herramientas digitales, basadas en software especializados, que permiten la obtención, procesamiento y generación oportuna de información para la toma de decisiones. No se amerita el uso de Sistemas de Información altamente sofisticados, complejos o costosos; por el contrario, se buscan sistemas que se adapten a los procesos de la empresa, #[span.text-bold en función del tipo y la cantidad de datos a obtener, procesar y almacenar.] 
               .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color
                 .row.justificar-contenido-entre.alinear-elementos-centro.p-5
                   .col-md-12                   
@@ -186,15 +187,14 @@
       .row.justify-content-center
         .col-md-10
           .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-            .row.justify-content-center.align-items-center
-              .col-md-10                  
-                p Las empresas, en la búsqueda de la competitividad, están optando por incorporarse al uso de Sistemas de Información Tecnológicos, en los que se busca prescindir de documentos físicos, facilitar la obtención y flujo de la información entre procesos o unidades organizativas. 
+            .row.justify-content-center.align-items-center.p-4                
+              p Las empresas, en la búsqueda de la competitividad, están optando por incorporarse al uso de Sistemas de Información Tecnológicos, en los que se busca prescindir de documentos físicos, facilitar la obtención y flujo de la información entre procesos o unidades organizativas. 
       
       p.mt-5.mb5 Debe tenerse en cuenta que, en medio de la virtualización de los procesos, las empresas han debido generar cambios en sus sistemas de trabajo, lo que ha ameritado la incorporación, rediseño y/o fortalecimiento de sus Sistemas de Información.       
 
 
-      .row.justify-content-center.bg4.mg-img.mt-5.p-5
-        .row.justify-content-center.mt-5.p-5
+      .row.justify-content-center.bg4.mg-img.mt-5.mb-5.mg-img-final
+        .row.justify-content-center.mt-5
           .col-md-10
             .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
               .bloque-texto-g__img(

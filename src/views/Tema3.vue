@@ -24,9 +24,8 @@
           .col-sm-7.mb-3
             p.mt-5 La interpretación de datos, a partir de la estadística, es un avance importante en la mejora de los procesos de toma de decisiones en una empresa; este proceso corresponde al análisis basado en la evidencia, permitiendo transformar el desconocimiento y la incertidumbre del futuro, en proyecciones de datos, a través de la determinación de parámetros medibles, propios de la práctica empresarial. 
             .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-              .row.justify-content-center
-                .col-md-11               
-                  p Las empresas ameritan datos de entrada para el desarrollo de los procesos y, a la par, generan un sinfín de datos numéricos, los cuales, al encontrarse adecuadamente identificados, establecidos como importantes para la toma de decisiones, y medidos o recopilados de las maneras adecuadas, permitirán que la estadística genere sus aportes en el procesamiento
+              .row.justify-content-center.p-3            
+                p Las empresas ameritan datos de entrada para el desarrollo de los procesos y, a la par, generan un sinfín de datos numéricos, los cuales, al encontrarse adecuadamente identificados, establecidos como importantes para la toma de decisiones, y medidos o recopilados de las maneras adecuadas, permitirán que la estadística genere sus aportes en el procesamiento.
             p.mt-3 En los procesos de producción, la estadística permite hacer proyecciones de demanda con base en un mercado potencial; favorece la proyección de datos de producción, indica los cambios que deben hacerse en la compra de insumos a partir de un cambio en las necesidades de producción por aumentos de la demanda; determina la frecuencia histórica de fallas de la maquinaria; permite llevar registro histórico de mejora o bajas en los resultados de la calidad. Uno de los usos fundamentales se basa en la administración, la cual debe ofrecer a los procesos gerenciales estratégicos, información clave para la toma de decisiones, donde los datos “simples”, aislados y sin procesamiento, no generan aportes.
           .col-sm-5.mb-3.mt-5
             figure
@@ -35,8 +34,7 @@
     .row.justify-content-center.mt-5
       .col-md-11       
         .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-          .row.justify-content-center
-            .col-md-11                 
+          .row.justify-content-center.p-3              
               p La estadística permite, además del procesamiento oportuno y científico de los datos, la visualización gráfica de la información, que es un elemento esencial para la comprensión del comportamiento de los procesos empresariales. 
     <Separador></Separador>
     #t_3_1.titulo-segundo.color-acento-contenido.mt-5
@@ -48,7 +46,7 @@
       .col-md-10
         .tarjeta.color-tarjeta-descargas.p-3.mt-5
           .row.justify-content-md-center
-            .col-md-1.mt-3
+            .col-auto.mt-3
                 img(src="@/assets/curso/temas/tema2/img9.png")
             .col-md-8
                 h3.mt-3.text-white Caso de estudio empresarial
@@ -59,7 +57,7 @@
                   i.fas.fa-file-download 
 
 
-    .row.justify-content-center.mt-5.p-5
+    .row.justify-content-center.mt-5
       .col-md-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -131,13 +129,12 @@
             figure
               img(src="@/assets/curso/temas/tema3/img8.png", alt="alt")
 
-    .row.justify-content-center.bg4.mg-img.mt-5.p-5
-      .row.justify-content-center.mt-5.p-5
+    .row.justify-content-center.bg4.mg-img.mt-5.mg-img-final
+      .row.justify-content-center.mt-5
         .col-md-11
           .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-            .row.justify-content-center
-              .col-md-11                 
-                p Como clave, en la selección y muestra de una población, es necesario tener claridad suficiente en cuanto al objetivo del estudio, al contexto del estudio y a los sujetos o elementos involucrados, además de las fuentes de información disponibles. Puede darse el caso de estudios en los que se amerite utilizar más de una población, y combinar técnicas de muestreo, como el caso de un estudio empresarial en el que se utiliza muestra intencional para recolectar información de los líderes de proceso, muestra censal (total de la población), para trabajar con el cuadro gerencial, y muestra probabilística para seleccionar pequeños grupos de muestra en las diferentes unidades organizativas.
+            .row.justify-content-center.p-3               
+              p Como clave, en la selección y muestra de una población, es necesario tener claridad suficiente en cuanto al objetivo del estudio, al contexto del estudio y a los sujetos o elementos involucrados, además de las fuentes de información disponibles. Puede darse el caso de estudios en los que se amerite utilizar más de una población, y combinar técnicas de muestreo, como el caso de un estudio empresarial en el que se utiliza muestra intencional para recolectar información de los líderes de proceso, muestra censal (total de la población), para trabajar con el cuadro gerencial, y muestra probabilística para seleccionar pequeños grupos de muestra en las diferentes unidades organizativas.
                                 
 
 </template>

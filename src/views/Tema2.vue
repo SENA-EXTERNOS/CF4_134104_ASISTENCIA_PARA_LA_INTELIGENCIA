@@ -77,8 +77,7 @@
       .row.justify-content-center.mt-5
         .col-md-11       
           .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-            .row.justify-content-center
-              .col-md-11                 
+            .row.justify-content-center.p-3                 
                 p Los datos son información procesada que conduce a conclusiones y aporta los insumos necesarios para la toma de decisiones.
 
       .row.justify-content-center.mt-5
@@ -108,7 +107,7 @@
         .col-md-10
           .tarjeta.color-tarjeta-descargas.p-3.mt-5
             .row.justify-content-md-center
-              .col-md-1.mt-3
+              .col-auto.mt-3
                   img(src="@/assets/curso/temas/tema2/img9.png")
               .col-md-8
                   h3.mt-3.text-white Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.
@@ -118,8 +117,8 @@
                     span Descargar
                     i.fas.fa-file-download 
 
-    .row.justify-content-center.bg4.mg-img.mt-5.p-5
-      .row.justify-content-center.mt-5.p-5
+    .row.justify-content-center.bg4.mg-img.mt-5.mg-img-final
+      .row.justify-content-center.mt-5
         .col-md-10
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(

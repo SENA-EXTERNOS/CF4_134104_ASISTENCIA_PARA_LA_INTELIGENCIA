@@ -54,7 +54,7 @@
   background-position: center 
   border-radius: 10px !important 
 @media (max-width:500px)  
-    .bg6 
+    .bg4 
       background-image: url('')   
 
 .mg-img
@@ -62,8 +62,16 @@
 
 @media (max-width:500px)   
     .mg-img
-      margin: -0px !important        
+      margin: -0px !important  
 
+.mg-img-final
+   padding-bottom: 148px !important
+   padding-top: 52px !important
+
+@media (max-width:500px)   
+    .mg-img.mg-img-final
+      margin: -0px !important                
+      padding-top: 0px !important
 
 .crd--avatarHorizontal
   position: relative
@@ -83,7 +91,7 @@
     height: 100%
     background-color: #FEE4F0
 
-  @media (max-width: 1000px)
+  @media (max-width: 500px)
     padding-right: 2rem
 
 .crd--first
@@ -118,11 +126,20 @@
 .cajon:before 
   height: 100% !important
 
+
 .bloque-img-left 
-    left: 50% !important
+  left: 50% !important
+
+@media (max-width:500px)  
+  .bloque-img-left  
+    left: 0% !important 
+
 
 .bloque-text-rigth
-   right: 39% !important    
+   right: 39% !important 
+@media (max-width:500px)  
+  .bloque-text-rigth  
+    right: 0% !important       
 
 .cajon-second-color
   background-color: #FEF2E4 !important
@@ -172,3 +189,6 @@
 
 .tabs-a__tab.tabs-a__tab__selected  
   background-color: #F40B74 !important    
+
+.h-tarjeta-rosa
+  height: 306px !important  

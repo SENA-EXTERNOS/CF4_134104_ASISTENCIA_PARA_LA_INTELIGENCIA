@@ -16,8 +16,7 @@
           .col-sm-8.mb-3
             p.mt-5 La estadística para el procesamiento de datos científicos, es decir, datos con valor predictivo, con importancia para la toma de decisiones, que conjugados aporten la mayor información posible al analista, amerita de técnicas y herramientas que han sido definidas por los matemáticos, y las cuales se han formalizado en tres grandes categorías, en función de su complejidad y utilidad: las distribuciones de frecuencia, las medidas de tendencia central, y las medidas de dispersión. 
             .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-              .row.justify-content-center
-                .col-md-11                 
+              .row.justify-content-center.p-3                
                   p Cada una de estas técnicas posee procesamientos distintos, amerita del apoyo de herramientas ofimáticas o software de cálculo, y generan diversos tipos de información visualizadas de maneras análogas a través de tablas y gráficos, pero que muestran una estructura de datos particulares en cada caso.             
     
     p.mt-5.mb-5 Seguidamente, se describen técnicas y herramientas de la estadística, para el procesamiento de datos:
@@ -52,16 +51,15 @@
               img(src="@/assets/curso/temas/tema4/img5.png", alt="alt")
           .col-sm-7.mb-3.mt-5            
             .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-              .row.justify-content-center
-                .col-md-11               
-                  p Las distribuciones de frecuencia, facilitan la tabulación básica de los datos de entrada de un estudio, su conteo y el cálculo de las proporciones, sobre la base del total de los datos obtenidos.
+              .row.justify-content-center.p-3             
+                p Las distribuciones de frecuencia, facilitan la tabulación básica de los datos de entrada de un estudio, su conteo y el cálculo de las proporciones, sobre la base del total de los datos obtenidos.
             p.mt-3 Estas distribuciones se pueden generar para datos simples o para datos agrupados, dependiendo de los intereses de quien realiza el análisis, del tipo de dato y de la cantidad de datos. Para conocer los conceptos asociados a estas distribuciones y su aplicabilidad, descargue el material #[span.text-bold “Introducción a la estadística_ejemplos”], donde se presenta un caso de estudio de un grupo de personas que se consideran clientes potenciales para la compra de un nuevo producto y los ejemplos de las técnicas y herramientas de la estadística para el procesamiento de datos. 
 
     .row.justify-content-md-center.mt-3
         .col-md-10
           .tarjeta.color-tarjeta-descargas.p-3.mt-5
             .row.justify-content-md-center
-              .col-md-1.mt-3
+              .col-auto.mt-3
                   img(src="@/assets/curso/temas/tema2/img9.png")
               .col-md-8
                   h3.mt-3.text-white Introducción a la estadística ejemplos
@@ -137,15 +135,15 @@
     .row.justify-content-center
         .col-md-12
           SlyderF(columnas="col-sm-6")
-            .tarjeta.color-tarjeta-rosa.p-5
+            .tarjeta.color-tarjeta-rosa.h-tarjeta-rosa
               .row.justify-content-center.mb-2
                 h3.mt-3.mb-5.texto-centro Media ponderada
-                .col-md-10
+                .col-sm-2.col-lg-7.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema4/img13.png' alt='AvatarTop')                  
                 p.mt-5.texto-centro Surge cuando se da valoración de importancia a los diferentes datos recolectados. 
 
-            .tarjeta.color-tarjeta-rosa.p-5
+            .tarjeta.color-tarjeta-rosa.h-tarjeta-rosa
               .row.justify-content-center.mb-2
                 h3.mt-3.mb-5.texto-centro Media geométrica
                 .col-sm-2.col-lg-7.mb-4.mb-lg-0
@@ -153,10 +151,10 @@
                     img(src='@/assets/curso/temas/tema4/img14.png' alt='AvatarTop')                  
                 p.mt-5.texto-centro Se calcula con la raíz a la #[span.text-bold N], de la multiplicación de los valores obtenidos en los datos. #[span.text-bold N] corresponde a la cantidad de datos recolectados. 
 
-            .tarjeta.color-tarjeta-rosa.p-4
+            .tarjeta.color-tarjeta-rosa.h-tarjeta-rosa
               .row.justify-content-center.mb-2
                 h3.mt-3.mb-5.texto-centro Media armónica 
-                .col-sm-2.col-lg-8.mb-4.mb-lg-0
+                .col-sm-2.col-lg-7.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema4/img15.png' alt='AvatarTop')                  
                 p.mt-5.texto-centro Es el resultado de dividir la cantidad de elementos en estudio, entre la sumatoria de los resultados obtenidos de cada elemento. 
@@ -166,8 +164,7 @@
     .row.justify-content-center.mt-5
         .col-md-10       
           .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-            .row.justify-content-center
-              .col-md-11                 
+            .row.justify-content-center.p-3              
                 p La relación que existe entre las medias aritmética, geométrica y armónica, es que todas indican un promedio, y la combinación de las tres favorece la selección del promedio más adecuado que se pueda tomar como criterio de decisión para el comportamiento de los datos. De esta manera, es que se establecen las escalas de valoración del desempeño, en los que ciertos resultados, corresponden a cierta posición en una determinada escala; tal es el caso de la educación o del nivel de dominio de un idioma, valorado por las instituciones mundiales especializadas.
 
     <Separador></Separador>
@@ -179,51 +176,51 @@
     .row.justify-content-center.mt-5
         .col-md-10       
           .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-            .row.justify-content-center
-              .col-md-11                 
+            .row.justify-content-center.p-3                
                 p Mientras se propinen datos más dispersos, que puedan ser visualizados en herramientas gráficas, mayor es la inexactitud del conjunto de datos, y más complicado se hace encontrar una tendencia en el comportamiento de dicho conjunto. Se buscan entonces, datos “agrupados”.
 
     p.mt-5.mb-5 La dispersión puede ser absoluta o relativa. Esta última, se utiliza en estudios estadísticos complejos en los que las variables toman incluso, diferentes unidades de medida. Pero, en la estadística descriptiva, la dispersión de mayor uso es la absoluta, la cual corresponde al análisis de la variable en la medida real en la que se presenta, sin modificarla, transformando entonces, la dispersión clásica de los estudios estadísticos en la empresa. En ciencias más complejas como la medicina, la física o la química, en las que se desarrollan experimentos, se utiliza la dispersión relativa con sus respectivas fórmulas y parámetros de interés.
     p.mb-5 Las medidas de dispersión absoluta más utilizadas y que ofrecen la mejor información como apoyo al análisis previo de las medidas de tendencia central, son:
 
-    .row.justify-content-center.bg4.mg-img.mt-5.p-5
-      TabsA.color-acento-botones.mt-5.mb-5
-        .tarjeta.color-borde-slider.color-slider.p-4(titulo="Decisiones estratégicas")
-          .row.justify-content-center
-            h4 Decisiones estratégicas
-            p Se ocupa de medir la desviación de cada valor del conjunto de datos, con respecto a la media aritmética. Se calcula a partir de la media aritmética de los valores absolutos de la desviación de cada valor de la variable, dividido entre la media aritmética.
-             | Dada la complejidad de estas fórmulas, el #[i software] se encarga de calcularla y, en este caso, Excel es la herramienta básica de cálculo estadístico, en la opción de “fórmulas” y “funciones estadísticas”.
-            .col-md-10.mt-5.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema4/img16.png' alt='')             
-        .tarjeta.color-borde-slider.color-slider.p-4(class="small-text" titulo="Desviación estándar")
-          .row.justify-content-center
-            h4 Desviación estándar
-            p También se conoce como desviación típica, y se denota con la letra griega sigma “σ”, o la “s” latina. Su valor representa la variación o dispersión de un conjunto de datos, considerando que:
-            p Una desviación estándar baja, indica que la mayor parte de los datos están agrupados cerca de su media. Mientras más cercana a cero, los datos estarán más cerca de la media.
-            p Una desviación estándar alta indica que los datos están dispersos, es decir, extendidos en el rango general de los datos. 
-            p Por lo tanto, el comportamiento esperado es el de una σ baja, para determinar menor dispersión. Esta medida es una de las más importantes al momento de emitir conclusiones estadísticas.
-            .col-md-8
-              p La fórmula matemática se presenta en la imagen donde:<br>
-              | -N es la cantidad de datos disponibles.<br>
-              | -Xi es el valor del dato<br>
-              | -X̅ es la media.
-            .col-md-4 
-              figure
-                  img(src='@/assets/curso/temas/tema4/img17.png' alt='')                          
-                   
-        .tarjeta.color-borde-slider.color-slider.p-4(titulo="Varianza")
-          .row.justify-content-center
-            h4 Varianza
-            p Es otra de las medidas de dispersión, que indica datos que están muy alejados por encima o por debajo del valor de la media; son datos más dispersos y menos representativos, y se reflejan en una desviación alta. El coeficiente de variación se representa con el símbolo griego “σ2”, o la “s2” latina.
-            .col-md-7
-              p Para la fórmula matemática se tiene que:<br>
-              | -N es la cantidad de datos disponibles.<br>
-              | -Xi es el valor del dato<br>
-              | -X̅ es la media.
-            .col-md-5 
+    .row.justify-content-center.bg4.mg-img.mt-5.mg-img-final
+      .col-md-10
+        TabsA.color-acento-botones.mt-5.mb-5
+          .tarjeta.color-borde-slider.color-slider.p-4(titulo="Decisiones estratégicas")
+            .row.justify-content-center
+              h4 Decisiones estratégicas
+              p Se ocupa de medir la desviación de cada valor del conjunto de datos, con respecto a la media aritmética. Se calcula a partir de la media aritmética de los valores absolutos de la desviación de cada valor de la variable, dividido entre la media aritmética.
+              | Dada la complejidad de estas fórmulas, el #[i software] se encarga de calcularla y, en este caso, Excel es la herramienta básica de cálculo estadístico, en la opción de “fórmulas” y “funciones estadísticas”.
+              .col-md-10.mt-5.mb-3
                 figure
-                    img(src='@/assets/curso/temas/tema4/img18.png' alt='')
+                  img(src='@/assets/curso/temas/tema4/img16.png' alt='')             
+          .tarjeta.color-borde-slider.color-slider.p-4(class="small-text" titulo="Desviación estándar")
+            .row.justify-content-center
+              h4 Desviación estándar
+              p También se conoce como desviación típica, y se denota con la letra griega sigma “σ”, o la “s” latina. Su valor representa la variación o dispersión de un conjunto de datos, considerando que:
+              p Una desviación estándar baja, indica que la mayor parte de los datos están agrupados cerca de su media. Mientras más cercana a cero, los datos estarán más cerca de la media.
+              p Una desviación estándar alta indica que los datos están dispersos, es decir, extendidos en el rango general de los datos. 
+              p Por lo tanto, el comportamiento esperado es el de una σ baja, para determinar menor dispersión. Esta medida es una de las más importantes al momento de emitir conclusiones estadísticas.
+              .col-md-8
+                p La fórmula matemática se presenta en la imagen donde:<br>
+                | -N es la cantidad de datos disponibles.<br>
+                | -Xi es el valor del dato<br>
+                | -X̅ es la media.
+              .col-md-4 
+                figure
+                    img(src='@/assets/curso/temas/tema4/img17.png' alt='')                          
+                    
+          .tarjeta.color-borde-slider.color-slider.p-4(titulo="Varianza")
+            .row.justify-content-center
+              h4 Varianza
+              p Es otra de las medidas de dispersión, que indica datos que están muy alejados por encima o por debajo del valor de la media; son datos más dispersos y menos representativos, y se reflejan en una desviación alta. El coeficiente de variación se representa con el símbolo griego “σ2”, o la “s2” latina.
+              .col-md-7
+                p Para la fórmula matemática se tiene que:<br>
+                | -N es la cantidad de datos disponibles.<br>
+                | -Xi es el valor del dato<br>
+                | -X̅ es la media.
+              .col-md-5 
+                  figure
+                      img(src='@/assets/curso/temas/tema4/img18.png' alt='')
 
 </template>
 

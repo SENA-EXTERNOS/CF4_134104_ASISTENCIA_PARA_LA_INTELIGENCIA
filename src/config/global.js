@@ -253,6 +253,39 @@ export default {
       link:
         'https://pro.arcgis.com/es/pro-app/2.8/tool-reference/spatial-statistics/what-is-a-z-score-what-is-a-p-value.htm ',
     },
+    {
+      referencia:
+        'Barón, E., García, E. & Sánchez, S. (2021). La inteligencia de negocios y la analítica de datos en los procesos empresariales. Revista Científica de Sistemas E Informática, 1(2), p.37-53. ',
+      link: 'https://doi.org/10.51252/rcsi.v1i2.167 ',
+    },
+    {
+      referencia:
+        'García, J. y Maroto, F. (2018). Interpretación de resultados estadísticos. Medicina Intensiva, 42(6), p.370-379. ',
+      link: 'https://doi.org/10.1016/j.medin.2017.12.013 ',
+    },
+    {
+      referencia:
+        'Hernández, R., Fernández, C. & Baptista, P. (2010). Metodología de la investigación. McGraw-Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Magdalena, E. (2019). Bioestadística aplicada en investigación clínica: conceptos básicos. Revista Médica Clínica Las Condes, 30(1), p.50-65. ',
+      link:
+        'https://www.sciencedirect.com/science/article/pii/S0716864019300045 ',
+    },
+    {
+      referencia: 'Real Academia Española. (2022). Dato.',
+      link: 'https://dle.rae.es/dato',
+    },
+    {
+      referencia: 'Real Academia Española. (2022). Estadística.',
+      link: 'https://dle.rae.es/estad%C3%ADstico',
+    },
+    {
+      referencia: 'Real Academia Española. (2022). Información.',
+      link: 'https://dle.rae.es/informaci%C3%B3n',
+    },
   ],
   creditos: {
     liderEquipo: [

@@ -15,8 +15,7 @@
               img(src="@/assets/curso/temas/tema5/img1.png", alt="alt")
           .col-sm-8.mb-3
             .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-              .row.justify-content-center
-                .col-md-11                 
+              .row.justify-content-center.p-3                
                   p La complejidad en los cálculos matemáticos para el procesamiento de los datos estadísticos, genera la necesidad de apoyo con herramientas tecnológicas, de las cuales, Excel es la herramienta base como hoja de cálculo.
     
             p.mt-5 No obstante, han surgido en el mercado diversos software estadísticos especializados, con licencia propia, los cuales pueden ser adquiridos por las empresas para el manejo de los datos. Asimismo, los sistemas de información empresarial, tanto para la gerencia, como para las ventas y la producción o la logística, incorporan innumerables herramientas para el procesamiento de datos y su conversión en información. Hoy en día, se considera que una empresa que se oriente al desarrollo y crecimiento, debe tener un procesamiento tecnológico de datos, aunque los procesos empíricos no dejen de existir. Sin embargo, es evidente el aporte que la tecnología ha estampado a la gestión de los datos en el mundo entero, en cualquier contexto y para diferentes utilidades.
@@ -29,8 +28,7 @@
           .col-sm-8.mb-3
             p.mt-5.mb-4 El manejo de los datos amerita un proceso de organización, y la estadística descriptiva ofrece las herramientas básicas conocidas como tablas y gráficos, los cuales, además de la organización, favorecen la visualización gráfica, y permiten una mejor comprensión del comportamiento de los datos, tal y como se ha mostrado en todos los ejemplos estadísticos de este componente. Los procesadores tecnológicos de datos, permiten la elaboración de ambos recursos y, para la estadística, su combinación es fundamental. 
             .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-              .row.justify-content-center
-                .col-md-11                 
+              .row.justify-content-center.p-3                
                   p En la empresa, es habitual encontrar reportes de datos gráficos, debido a que las imágenes son un recurso esencial en la comunicación de la información empresarial en cualquier área. Los gráficos de producción, las proyecciones de venta, los resultados de rentabilidad, en su mayoría, son representados a través de visualizaciones estadísticas gráficas.
           .col-sm-4.mb-3.mt-5
             figure
@@ -51,12 +49,11 @@
     .row.justify-content-center.mt-5
       .col-md-10       
         .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-          .row.justify-content-center
-            .col-md-11                 
+          .row.justify-content-center.p-3                
               p De la calidad de los datos recabados, depende la utilidad y la contribución de las herramientas para el procesamiento y la generación de datos estadísticos.
 
-    .row.justify-content-center.bg4.mg-img.mt-5.p-5
-      .row.justify-content-center.mt-5.p-5
+    .row.justify-content-center.bg4.mg-img.mt-5.mg-img-final
+      .row.justify-content-center.mt-5
         .col-md-11.mb-5
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
