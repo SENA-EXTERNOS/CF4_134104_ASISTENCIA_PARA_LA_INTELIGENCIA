@@ -153,7 +153,7 @@ export default {
     {
       tema: 'Uso de la estadística en el manejo de la información empresarial',
       referencia:
-        'Guevara, J. (2021). Importancia de los registros, la estadística y los sistemas de información para la gerencia de los servicios de salud. Revista Saluta, 4(3), p.10-30. ',
+        'Guevara, J. (2021). Importancia de los registros, la estadística y los sistemas de información para la gerencia de los servicios de salud. <i>Revista Saluta<i>, 4(3), p.10-30. ',
       tipo: 'Artículo',
       link:
         'https://revistas.umecit.edu.pa/flip/index.php?pdf=https://revistas.umecit.edu.pa/index.php/saluta/article/download/606/1257',
@@ -161,14 +161,14 @@ export default {
     {
       tema: 'Medidas de tendencia central',
       referencia:
-        'Tutorial Excel. (2022). Calcular la media aritmética y media ponderada en Excel (video). YouTube.',
+        'Tutorial Excel. (2022). <i>Calcular la media aritmética y media ponderada en<i> Excel (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=y7jBI8b2v4Q',
     },
     {
       tema: 'Distribución de frecuencias',
       referencia:
-        'Vasen, F. y Lujano, I. (2017). Sistemas nacionales de clasificación de revistas científicas en América Latina: tendencias recientes e implicaciones para la evaluación académica en ciencias sociales. Revista Mexicana de Ciencias Políticas y Sociales, 62(231), p.199-228. ',
+        'Vasen, F. y Lujano, I. (2017). Sistemas nacionales de clasificación de revistas científicas en América Latina: tendencias recientes e implicaciones para la evaluación académica en ciencias sociales. <i>Revista Mexicana de Ciencias Políticas y Sociales, 62<i>(231), p.199-228. ',
       tipo: 'Artículo',
       link:
         'https://www.sciencedirect.com/science/article/pii/S0185191817300430',
@@ -176,14 +176,14 @@ export default {
     {
       tema: 'Medidas de dispersión',
       referencia:
-        'Universidad Americana de Costa Rica. (2019). Cálculo de promedio y desviación estándar (video). YouTube.',
+        'Universidad Americana de Costa Rica. (2019). <i>Cálculo de promedio y desviación estándar<i> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=U6x2tGTllNY',
     },
     {
       tema: 'Medidas de dispersión',
       referencia:
-        'Universitat Politècnica de València. (2017). Cálculo de la varianza utilizando hoja de cálculo (video). YouTube. ',
+        'Universitat Politècnica de València. (2017). <i>Cálculo de la varianza utilizando hoja de cálculo<i> (video). YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=J57rJKiRPR4',
     },
@@ -243,47 +243,47 @@ export default {
   referencias: [
     {
       referencia:
-        'Abrego, Y., Sánchez, Y. & Medina, J. (2017). Influencia de los sistemas de información en los resultados organizacionales. Contaduría y Administración, 62(2), p.303-320.',
+        'Abrego, Y., Sánchez, Y. & Medina, J. (2017). Influencia de los sistemas de información en los resultados organizacionales. <i>Contaduría y Administración, 62<i>(2), p.303-320.',
       link:
         'https://www.sciencedirect.com/science/article/pii/S0186104216300432',
     },
     {
       referencia:
-        'ArcGIS Pro. (2022). ¿Qué es una puntuación z? ¿Qué es un valor P? ',
+        'ArcGIS Pro. (2022). <i>¿Qué es una puntuación z? ¿Qué es un valor P?<i> ',
       link:
         'https://pro.arcgis.com/es/pro-app/2.8/tool-reference/spatial-statistics/what-is-a-z-score-what-is-a-p-value.htm ',
     },
     {
       referencia:
-        'Barón, E., García, E. & Sánchez, S. (2021). La inteligencia de negocios y la analítica de datos en los procesos empresariales. Revista Científica de Sistemas E Informática, 1(2), p.37-53. ',
+        'Barón, E., García, E. & Sánchez, S. (2021). La inteligencia de negocios y la analítica de datos en los procesos empresariales. <i>Revista Científica de Sistemas E Informática, 1<i>(2), p.37-53. ',
       link: 'https://doi.org/10.51252/rcsi.v1i2.167 ',
     },
     {
       referencia:
-        'García, J. y Maroto, F. (2018). Interpretación de resultados estadísticos. Medicina Intensiva, 42(6), p.370-379. ',
+        'García, J. y Maroto, F. (2018). Interpretación de resultados estadísticos. <i>Medicina Intensiva, 42<i>(6), p.370-379. ',
       link: 'https://doi.org/10.1016/j.medin.2017.12.013 ',
     },
     {
       referencia:
-        'Hernández, R., Fernández, C. & Baptista, P. (2010). Metodología de la investigación. McGraw-Hill.',
+        'Hernández, R., Fernández, C. & Baptista, P. (2010). <i>Metodología de la investigación<i>. McGraw-Hill.',
       link: '',
     },
     {
       referencia:
-        'Magdalena, E. (2019). Bioestadística aplicada en investigación clínica: conceptos básicos. Revista Médica Clínica Las Condes, 30(1), p.50-65. ',
+        'Magdalena, E. (2019). Bioestadística aplicada en investigación clínica: conceptos básicos. <i>Revista Médica Clínica Las Condes, 30<i>(1), p.50-65. ',
       link:
         'https://www.sciencedirect.com/science/article/pii/S0716864019300045 ',
     },
     {
-      referencia: 'Real Academia Española. (2022). Dato.',
+      referencia: 'Real Academia Española. (2022). <i>Dato<i>.',
       link: 'https://dle.rae.es/dato',
     },
     {
-      referencia: 'Real Academia Española. (2022). Estadística.',
+      referencia: 'Real Academia Española. (2022). <i>Estadística<i>.',
       link: 'https://dle.rae.es/estad%C3%ADstico',
     },
     {
-      referencia: 'Real Academia Española. (2022). Información.',
+      referencia: 'Real Academia Española. (2022). <i>Información<i>.',
       link: 'https://dle.rae.es/informaci%C3%B3n',
     },
   ],

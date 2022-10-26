@@ -11,7 +11,7 @@
       .row.justify-content-center
         .tarjeta
           .row.justify-content-left
-            .col-sm-4.mb-3.mt-5
+            .col-sm-3.mb-3.mt-5
               figure
                 img(src="@/assets/curso/temas/tema1/img1.png", alt="alt")
             .col-sm-8.mb-3
@@ -25,7 +25,7 @@
 
       .row.align-items-end.bg2.h4.p-3 Fuente de datos en las empresas
 
-      p.mt-5.mb-5 La empresa es un sistema de trabajo, al ser un sistema, posee 4 elementos clave: #[span.text-bold Las entradas (#[i inputs]), los procesos, las salidas (#[i outputs]), y la retroalimentación.]
+      p.mt-5.mb-5 La empresa es un sistema de trabajo, al ser un sistema, posee 4 elementos clave:  las entradas (#[i inputs]), los procesos, las salidas (#[i outputs]), y la retroalimentación.
       p.mb-5 A continuación, se profundiza sobre cada elemento clave en una empresa:
 
       .row.mb-5
@@ -77,84 +77,79 @@
           .row.justify-content-center
             .col-sm-10  
               figure 
-                img(src='@/assets/curso/temas/tema1/img9.png', alt='alt')                
-        .tarjeta.bg3.p-3(x="31%" y="44%")  
-          .row.justify-content-center 
-            h4.m-3.text-center Datos referentes a: 
-            .row.justify-content-center
-              .col-md-5  
-                ul.lista-ul
-                    li 
-                      i.lista-ul__vineta
-                      | Proveedores
-                    li 
-                      i.lista-ul__vineta
-                      | Demanda
-                    li 
-                      i.lista-ul__vineta
-                      | Competencia
-                    li 
-                      i.lista-ul__vineta
-                      | Mercado                    
+                img(src='@/assets/curso/temas/tema1/img9.png', alt='alt') 
+        .cajon.color-acento-botones.punto-caliente-second-color(x="31%" y="44%")  
+          .row.justify-content-center.m-5
+            h4.mt-5.text-center Datos referentes a:
+            ul.lista-ul.p-4
+              li 
+                i.lista-ul__vineta
+                | Proveedores
+              li 
+                i.lista-ul__vineta
+                | Demanda
+              li 
+                i.lista-ul__vineta
+                | Competencia
+              li 
+                i.lista-ul__vineta
+                | Mercado                 
+                                                                                                      
+        .cajon.color-acento-botones.punto-caliente-second-color(x="57%" y="44%" )
+          .row.justify-content-center.m-5 
+            h4.mt-5.text-center Datos referentes a: 
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta
+                | Demanda
+              li 
+                i.lista-ul__vineta
+                | #[span.small-text Volúmenes de producción]
+              li 
+                i.lista-ul__vineta
+                | Materia prima e insumos
+              li 
+                i.lista-ul__vineta
+                | Requerimientos de personal
+              li 
+                i.lista-ul__vineta
+                | Requerimientos de maquinaria
+              li 
+                i.lista-ul__vineta
+                | Requerimientos de almacenaje                                           
                                         
-        .tarjeta.bg3.tarjeta-ancho(x="57%" y="44%" )
-          .row.justify-content-center 
-            h4.m-3.text-center Datos referentes a: 
-            .col-md-5  
-              ul.lista-ul
-                  li 
-                    i.lista-ul__vineta
-                    | Demanda
-                  li 
-                    i.lista-ul__vineta
-                    | #[span.small-text Volúmenes de producción]
-                  li 
-                    i.lista-ul__vineta
-                    | Materia prima e insumos
-                  li 
-                    i.lista-ul__vineta
-                    | Requerimientos de personal
-                  li 
-                    i.lista-ul__vineta
-                    | Requerimientos de maquinaria
-                  li 
-                    i.lista-ul__vineta
-                    | Requerimientos de almacenaje                                           
-                                        
-        .tarjeta.bg3.tarjeta-ancho(x="71%" y="44%" )
-          .row.justify-content-center 
-            h4.m-3.text-center Datos referentes a: 
-            .col-md-5  
-              ul.lista-ul
-                  li
-                    i.lista-ul__vineta
-                    | Cantidades producidas
-                  li 
-                    i.lista-ul__vineta
-                    | Desperdicios
-                  li 
-                    i.lista-ul__vineta
-                    | Indicadores de calidad
-                  li 
-                    i.lista-ul__vineta
-                    | #[span.small-text Cumplimiento de metas de producción]
-                  li 
-                    i.lista-ul__vineta
-                    | Fallas de procesos
-        .tarjeta.bg3.tarjeta-ancho(x="63%" y="100%")
-          .row.justify-content-center 
-            h4.m-3.text-center Datos referentes a: 
-            .col-md-6 
-              ul.lista-ul
-                li
-                  i.lista-ul__vineta
-                  | Informes de cumplimiento
-                li 
-                  i.lista-ul__vineta
-                  | Necesidades de mejora
-                li 
-                  i.lista-ul__vineta
-                  | Oportunidades de mejora
+        .cajon.color-acento-botones.punto-caliente-second-color(x="71%" y="44%" )
+          .row.justify-content-center.m-5 
+            h4.mt-5.text-center Datos referentes a: 
+            ul.lista-ul
+              li
+                i.lista-ul__vineta
+                | Cantidades producidas
+              li 
+                i.lista-ul__vineta
+                | Desperdicios
+              li 
+                i.lista-ul__vineta
+                | Indicadores de calidad
+              li 
+                i.lista-ul__vineta
+                | #[span.small-text Cumplimiento de metas de producción]
+              li 
+                i.lista-ul__vineta
+                | Fallas de procesos
+        .cajon.color-acento-botones.punto-caliente-second-color(x="63%" y="100%")
+          .row.justify-content-center.m-5 
+            h4.mt-5.text-center Datos referentes a: 
+            ul.lista-ul
+              li
+                i.lista-ul__vineta
+                | Informes de cumplimiento
+              li 
+                i.lista-ul__vineta
+                | Necesidades de mejora
+              li 
+                i.lista-ul__vineta
+                | Oportunidades de mejora
                   
       .row.mt-5.align-items-end.bg2.h4.p-3 Los sistemas de información en la empresa 
 
@@ -166,11 +161,11 @@
                 img(src="@/assets/curso/temas/tema1/img11.png", alt="alt")
             .col-sm-7.mb-3
               p.mt-5 El uso de los datos y convertirlos en información para las empresas que persiguen desarrollo organizacional y crecimiento en rentabilidad, no puede ser un asunto del azar y no puede ser un proceso empírico, es decir, no formalizado. 
-              p Para eso se han creado los Sistemas de Información, los cuales son herramientas digitales, basadas en software especializados, que permiten la obtención, procesamiento y generación oportuna de información para la toma de decisiones. No se amerita el uso de Sistemas de Información altamente sofisticados, complejos o costosos; por el contrario, se buscan sistemas que se adapten a los procesos de la empresa, #[span.text-bold en función del tipo y la cantidad de datos a obtener, procesar y almacenar.] 
+              p Para eso se han creado los Sistemas de Información, los cuales son herramientas digitales, basadas en #[i software] especializados, que permiten la obtención, procesamiento y generación oportuna de información para la toma de decisiones. No se amerita el uso de Sistemas de Información altamente sofisticados, complejos o costosos; por el contrario, se buscan sistemas que se adapten a los procesos de la empresa, #[span.text-bold en función del tipo y la cantidad de datos a obtener, procesar y almacenar.] 
               .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color
                 .row.justificar-contenido-entre.alinear-elementos-centro.p-5
                   .col-md-12                   
-                    p Una hoja de cálculo puede ser la base de un Sistema de Información para una microempresa que no posee los recursos suficientes para adquirir software especializado. Por el contrario, a medida que aumenta la complejidad de la organización, en cuanto a la cantidad de procesos y subprocesos, mayor capacidad, versatilidad y facilidad de uso, deben utilizar Sistemas de Información.
+                    p Una hoja de cálculo puede ser la base de un Sistema de Información para una microempresa que no posee los recursos suficientes para adquirir #[i software] especializado. Por el contrario, a medida que aumenta la complejidad de la organización, en cuanto a la cantidad de procesos y subprocesos, mayor capacidad, versatilidad y facilidad de uso, deben utilizar Sistemas de Información.
 
       .row.justify-content-center.mt-5
         .col-md-10
@@ -197,7 +192,7 @@
         .row.justify-content-center.mt-5
           .col-md-10
             .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
-              .bloque-texto-g__img(
+              .bloque-texto-g__img.w-bloque(
                 :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img13.png')})`}"
               )                             
               .bloque-texto-g__texto.p-4

@@ -60,14 +60,6 @@
                 img(src="@/assets/curso/temas/tema2/img6.png", alt="alt")  
           .row
             .col-md-6.mb-4.mb-md-0.p-4
-              h4 Fuentes primarias
-              p Los datos primarios son datos originales; es decir, son recolectados directamente por una persona en un momento real del estudio que se esté llevando a cabo, según los intereses propios y el momento en que se decide la recolección.
-              p La tenencia de datos primarios debe fundamentarse en procesos de recolección, a través de diferentes herramientas como: listas de chequeo, cuestionarios, hojas de registros de datos, observaciones directas, o el uso de herramientas de medición especializadas. Lo importante es reducir al máximo, el error en la adquisición de los datos, por lo que el sujeto que incorpora el dato, debe asegurarse de estar utilizando la fuente de información correcta, o la herramienta de medición idónea.
-            .col-md-6
-              figure
-                img(src="@/assets/curso/temas/tema2/img6.png", alt="alt") 
-          .row
-            .col-md-6.mb-4.mb-md-0.p-4
               h4 Fuentes secundarias
               p Las fuentes secundarias representan datos ya existentes depositados en bases de datos, o en cualquier documento ya desarrollado por otras personas. Ejemplo: en una empresa puede haber datos internos como los registros de venta anuales, la cartera de clientes, entre otros, los cuales se reflejan en bases de datos o informes de gestión.
             .col-md-6
@@ -101,18 +93,18 @@
 
       .row.align-items-end.bg2.h4.p-3.mt-5 Técnicas y herramientas para la recolección de datos
 
-      p.mt-5.mb-5 La recolección de datos considerada verídica y de importancia para cualquier estudio, como en el caso de los análisis empresariales, debe basarse en técnicas y herramientas manuales o digitales, de apoyo, que generen el menor riesgo y el mínimo error en la recolección. En este aspecto, se hace relevante el elemento de #[span.text-bold credibilidad] o #[span.text-bold cientificidad] de los datos, reduciendo los “juicios de valor”, es decir, presunciones, opiniones sin basamento formal, suposiciones o proyecciones no calculadas. Por eso, toda persona que recolecta datos, cuenta con un importante abanico de técnicas y herramientas o instrumentos de recolección de datos, los cuales se utilizan en las investigaciones formales. Para profundizar en este tema descargue el siguiente material #[span.text-bold Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.]
+      p.mt-5.mb-5 La recolección de datos considerada verídica y de importancia para cualquier estudio, como en el caso de los análisis empresariales, debe basarse en técnicas y herramientas manuales o digitales, de apoyo, que generen el menor riesgo y el mínimo error en la recolección. En este aspecto, se hace relevante el elemento de #[span.text-bold credibilidad] o #[span.text-bold cientificidad] de los datos, reduciendo los “juicios de valor”, es decir, presunciones, opiniones sin basamento formal, suposiciones o proyecciones no calculadas. Por eso, toda persona que recolecta datos, cuenta con un importante abanico de técnicas y herramientas o instrumentos de recolección de datos, los cuales se utilizan en las investigaciones formales.
 
       .row.justify-content-md-center.mt-3
         .col-md-10
           .tarjeta.color-tarjeta-descargas.p-3.mt-5
             .row.justify-content-md-center
-              .col-auto.mt-3
+              .col-1.mt-3
                   img(src="@/assets/curso/temas/tema2/img9.png")
               .col-md-8
                   h3.mt-3.text-white Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.
                   p.text-small.text-white Para profundizar en este tema descargue el siguiente material 
-              .col-lg-1.mt-4
+              .col-md-1.mt-4
                   a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download 

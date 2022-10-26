@@ -50,7 +50,7 @@
                 img(src="@/assets/curso/temas/tema2/img9.png")
             .col-md-8
                 h3.mt-3.text-white Caso de estudio empresarial
-                p.text-small.text-white Para conocer un caso de estudio empresarial donde se aplican los conceptos básicos de la estadística descriptiva, lo invitamos descargar el siguiente material      
+                p.text-small.text-white Para conocer un caso de estudio empresarial donde se aplican los conceptos básicos de la estadística descriptiva, lo invitamos descargar el siguiente material.      
             .col-lg-1.mt-4
                 a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Caso de estudio empresarial.pdf')" target="_blank")
                   span Descargar
@@ -60,7 +60,7 @@
     .row.justify-content-center.mt-5
       .col-md-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
+          .bloque-texto-g__img.w-bloque-3(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img3.png')})`}"
           )                             
           .bloque-texto-g__texto.p-4
@@ -81,7 +81,7 @@
         img(src='@/assets/curso/temas/tema3/img5.png' alt='')
         .tarjeta.he-tarjetas.color-tarjeta-avatar.p-3
           h2.text-center.mt-5 Porcentajes
-          p Reflejan la expresión numérica de mayor utilidad estadística, ya que indican, sobre la base de una población total de datos, cuántos o cuáles corresponden a los resultados más altos o más bajos; es decir, especifica en qué tipo de datos se dan las mayores ocurrencias. Son estos porcentajes los que permiten generar las conclusiones de los estudios estadísticos. 
+          p.text-center Reflejan la expresión numérica de mayor utilidad estadística, ya que indican, sobre la base de una población total de datos, cuántos o cuáles corresponden a los resultados más altos o más bajos; es decir, especifica en qué tipo de datos se dan las mayores ocurrencias. Son estos porcentajes los que permiten generar las conclusiones de los estudios estadísticos. 
 
     <Separador></Separador>
     #t_3_2.titulo-segundo.color-acento-contenido.mt-5
@@ -102,7 +102,7 @@
         p La muestra corresponde a la parte de la población que se desea investigar. Se parte de una muestra, cuando no hace falta investigar a toda la población, o cuando la población es considerada muy amplia o variada. La consideración de cantidad depende del juicio de quien realiza el estudio. No obstante, hay estudios que ameritan la inclusión del total de la población, los cuales se denominan estudios censales (Hernández, Fernández & Baptista, 2010). En el resto de los casos, existe la necesidad de tomar una muestra, la cual puede ser en términos estadísticos, probabilística o no probabilística.
 
       div(titulo="Muestra no probabilística").p-5
-        p Es la muestra llamada intencional. Sobre la base de una población, la persona que realiza el estudio toma solo una cantidad relativa de sujetos o elementos de investigación, para la recolección de los datos
+        p Es la muestra llamada intencional. Sobre la base de una población, la persona que realiza el estudio toma solo una cantidad relativa de sujetos o elementos de investigación, para la recolección de los datos.
         p Estas muestras deben ir justificadas respecto al porqué no se manejan de manera probabilística, y son usadas normalmente en estudios cualitativos, en los que se hace énfasis en las cualidades y no en las cantidades. Por ejemplo, en las empresas, para un estudio relacionado con las capacidades gerenciales, puede hacerse una entrevista solo a los líderes de los procesos, lo que indica ser una muestra intencional con respecto a la totalidad de los trabajadores de la empresa. 
 
       div(titulo="Muestra probabilística").p-5
@@ -115,8 +115,8 @@
             figure
               img(src="@/assets/curso/temas/tema3/img7.png", alt="alt")
         p.mt-3 Donde: <br>
-        | #[span.text-bold n: ] es el número final de muestra <br> 
-        | #[span.text-bold N: ] es el total conocido de la población <br> 
+        | #[span.text-bold n: ] es el número final de muestra. <br> 
+        | #[span.text-bold N: ] es el total conocido de la población. <br> 
         | #[span.text-bold Z: ] es la desviación estándar de exactitud de los datos de la muestra. <br>
         | #[span.text-bold E: ] es el error de cálculo de la muestra.<br>
         | #[span.text-bold p: ] es la probabilidad de éxito que ocurra el evento que se está estudiando.<br>
