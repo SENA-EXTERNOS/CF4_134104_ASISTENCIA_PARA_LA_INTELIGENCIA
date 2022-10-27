@@ -15,12 +15,12 @@
             img(src="@/assets/curso/temas/actividad.png", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-       
+          h2 Asistencia para la inteligencia empresarial
         p.mb-4 A continuación, se ubica una serie de preguntas que permiten evaluar el aprendizaje obtenido en cuanto al procesamiento de datos estadísticos. Se visualiza una serie de 10 preguntas de verdadero y falso, para seleccionar la opción que corresponda. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 falso/verdadero
+              p.fw-bold.mb-0 Falso/verdadero
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/Actividad_1/index.html')" target="_blank")
                 span Realizar
