@@ -76,11 +76,16 @@
           .row
             .col-md-6.mb-4.mb-md-0.p-4
               h4 Histogramas
-              p Son los gráficos que muestran la frecuencia de las variables en estudio. Para el caso trabajado, se presenta el histograma de frecuencia simple.<br>
-              | Para el caso de la distribución de datos agrupados, se tiene este: 
+              p Son los gráficos que muestran la frecuencia de las variables en estudio. Para el caso trabajado, se presenta el histograma de frecuencia simple.<br>              
             .col-md-6
               figure
                 img(src="@/assets/curso/temas/tema4/img6.png", alt="alt")
+          .row
+            .col-md-6.mb-4.mb-md-0.p-4              
+              p Para el caso de la distribución de datos agrupados, se tiene este: 
+            .col-md-6
+              figure
+                img(src="@/assets/curso/temas/tema4/img19.png", alt="alt")                
           .row
             .col-md-6.mb-4.mb-md-0.p-4
               h4 Polígonos de frecuencia
