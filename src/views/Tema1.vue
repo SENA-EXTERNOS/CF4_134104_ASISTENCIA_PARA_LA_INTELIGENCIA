@@ -178,7 +178,7 @@
 
       .row.mt-5.align-items-end.bg2.h4.p-3 Tendencias en el uso de los datos en las empresas 
       
-      p.mt-5.mb5 Cada vez es más frecuente el uso de datos en las empresas y, debido a la rapidez con la que se desenvuelven el mercado y la tecnología, se convierte en el motor de la dinámica social.  
+      p.mt-5.mb5 Cada vez es más frecuente el uso de datos en las empresas y debido a la rapidez con la que se desenvuelven el mercado y la tecnología, se convierte en el motor de la dinámica social.  
       .row.justify-content-center
         .col-md-10
           .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
