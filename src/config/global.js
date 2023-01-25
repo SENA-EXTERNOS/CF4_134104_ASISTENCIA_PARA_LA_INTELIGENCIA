@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Procesamiento estadístico de datos',
     descripcionCurso:
-      'El procesamiento estadístico de datos se refiere a la interpretación de los datos cuantitativos obtenidos de los procesos de la empresa, o los datos externos a esta y a las técnicas estadísticas, a través de herramientas informáticas, de donde derive información específica de variables o conjunto de variables, para la toma de decisiones.',
+      'El procesamiento estadístico de datos se refiere a la interpretación de los datos cuantitativos obtenidos de los procesos de la empresa, o los datos externos a esta y a las técnicas estadísticas, a través de herramientas informáticas, de donde se derive información específica de variables o conjunto de variables, para la toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -151,9 +151,9 @@ export default {
   },
   complementario: [
     {
-      tema: 'Uso de la estadística en el manejo de la información empresarial',
+      tema: 'La importancia de los datos en los procesos empresariales',
       referencia:
-        'Guevara, J. (2021). Importancia de los registros, la estadística y los sistemas de información para la gerencia de los servicios de salud. <i>Revista Saluta<i>, 4(3), p.10-30. ',
+        'Guevara, J. (2021). Importancia de los registros, la estadística y los sistemas de información para la gerencia de los servicios de salud. Revista Saluta, 4(3), p.10-30.',
       tipo: 'Artículo',
       link:
         'https://revistas.umecit.edu.pa/flip/index.php?pdf=https://revistas.umecit.edu.pa/index.php/saluta/article/download/606/1257',
@@ -166,9 +166,9 @@ export default {
       link: 'https://www.youtube.com/watch?v=y7jBI8b2v4Q',
     },
     {
-      tema: 'Distribución de frecuencias',
+      tema: 'Distribuciones de frecuencia',
       referencia:
-        'Vasen, F. y Lujano, I. (2017). Sistemas nacionales de clasificación de revistas científicas en América Latina: tendencias recientes e implicaciones para la evaluación académica en ciencias sociales. <i>Revista Mexicana de Ciencias Políticas y Sociales, 62<i>(231), p.199-228. ',
+        'Vasen, F. y Lujano, I. (2017). Sistemas nacionales de clasificación de revistas científicas en América Latina: tendencias recientes e implicaciones para la evaluación académica en ciencias sociales. Revista Mexicana de Ciencias Políticas y Sociales, 62(231), p.199-228.',
       tipo: 'Artículo',
       link:
         'https://www.sciencedirect.com/science/article/pii/S0185191817300430',
@@ -232,12 +232,12 @@ export default {
     {
       termino: 'Recolección de datos',
       significado:
-        'es el proceso de extraer con precisión las cualidades o cantidades de personas, objetos, resultados, características para conocer su estado en un momento determinado (Magdalena, 2019). ',
+        'es el proceso de extraer con precisión las cualidades o cantidades de personas, objetos, resultados, características para conocer su estado en un momento determinado (Magdalena, 2019).',
     },
     {
       termino: 'Toma de decisiones',
       significado:
-        'proceso analítico empresarial requerido para el direccionamiento de los objetivos estratégicos de la empresa, en lo cual se amerita el procesamiento de datos y la obtención de información. ',
+        'proceso analítico empresarial requerido para el direccionamiento de los objetivos estratégicos de la empresa, en lo cual se amerita el procesamiento de datos y la obtención de información.',
     },
   ],
   referencias: [

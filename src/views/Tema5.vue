@@ -62,7 +62,7 @@
             .bloque-texto-g__texto.p-4
               p  Para la adaptación a estas herramientas, se deben desarrollar capacidades tecnológicas por parte del analista. No obstante, la tendencia es, que en las empresas se contrate personal especializado para los departamentos administrativos, o que se subcontrate el servicio, tal y como se acostumbra hacer con los procesos contables. Esto ha permitido que surjan empresas especialmente dedicadas al procesamiento de datos, o que profesionales independientes desempeñen esta función de asesoría tecnológica. 
 
-      p.mb-5 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, el material complementario, el glosario y la bibliografía. Lo invitamos a desarrollar la actividad didáctica para reforzar los conceptos estudiados.  
+      p.mb-5 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, el material complementario, el glosario y la bibliografía. Lo invitamos a desarrollar la actividad didáctica para reforzar los conceptos estudiados.
 
 
 

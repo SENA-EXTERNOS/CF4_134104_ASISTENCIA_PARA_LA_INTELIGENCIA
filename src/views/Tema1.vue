@@ -25,7 +25,7 @@
 
       .row.align-items-end.bg2.h4.p-3 Fuente de datos en las empresas
 
-      p.mt-5.mb-5 La empresa es un sistema de trabajo, al ser un sistema, posee 4 elementos clave:  las entradas (#[i inputs]), los procesos, las salidas (#[i outputs]), y la retroalimentación.
+      p.mt-5.mb-5 La empresa es un sistema de trabajo y, al ser un sistema, posee 4 elementos claves: las entradas (<i>inputs</i>), los procesos, las salidas (<i>outputs</i>) y la retroalimentación.
       p.mb-5 A continuación, se profundiza sobre cada elemento clave en una empresa:
 
       .row.mb-5
@@ -178,14 +178,14 @@
 
       .row.mt-5.align-items-end.bg2.h4.p-3 Tendencias en el uso de los datos en las empresas 
       
-      p.mt-5.mb5 Cada vez es más frecuente el uso de datos en las empresas, debido a la rapidez con la que se desenvuelve el mercado, y la tecnología se convierte en el motor de la dinámica social. 
+      p.mt-5.mb5 Cada vez es más frecuente el uso de datos en las empresas y, debido a la rapidez con la que se desenvuelven el mercado y la tecnología, se convierte en el motor de la dinámica social.  
       .row.justify-content-center
         .col-md-10
           .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
             .row.justify-content-center.align-items-center.p-4                
-              p Las empresas, en la búsqueda de la competitividad, están optando por incorporarse al uso de Sistemas de Información Tecnológicos, en los que se busca prescindir de documentos físicos, facilitar la obtención y flujo de la información entre procesos o unidades organizativas. 
+              p Las empresas, en la búsqueda de la competitividad, están optando por incorporarse al uso de Sistemas de Información Tecnológicos, en los que se busca prescindir de documentos físicos, facilitar la obtención y flujo de la información entre procesos o unidades organizativas.  
       
-      p.mt-5.mb5 Debe tenerse en cuenta que, en medio de la virtualización de los procesos, las empresas han debido generar cambios en sus sistemas de trabajo, lo que ha ameritado la incorporación, rediseño y/o fortalecimiento de sus Sistemas de Información.       
+      p.mt-5.mb5 Debe tenerse en cuenta que, en medio de la virtualización de los procesos, las empresas han debido generar cambios en sus sistemas de trabajo, lo que ha ameritado la incorporación, rediseño y/o fortalecimiento de sus Sistemas de Información.      
 
 
       .row.justify-content-center.bg4.mg-img.mt-5.mb-5.mg-img-final

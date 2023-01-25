@@ -52,9 +52,9 @@
           .col-sm-7.mb-3.mt-5            
             .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
               .row.justify-content-center.p-3             
-                p Las distribuciones de frecuencia, facilitan la tabulación básica de los datos de entrada de un estudio, su conteo y el cálculo de las proporciones, sobre la base del total de los datos obtenidos.
-            p.mt-3 Estas distribuciones se pueden generar para datos simples o para datos agrupados, dependiendo de los intereses de quien realiza el análisis, del tipo de dato y de la cantidad de datos. Para conocer los conceptos asociados a estas distribuciones y su aplicabilidad, descargue el material #[span.text-bold “Introducción a la estadística_ejemplos”], donde se presenta un caso de estudio de un grupo de personas que se consideran clientes potenciales para la compra de un nuevo producto y los ejemplos de las técnicas y herramientas de la estadística para el procesamiento de datos. 
-
+                p.mb-0 Las distribuciones de frecuencia, facilitan la tabulación básica de los datos de entrada de un estudio, su conteo y el cálculo de las proporciones, sobre la base del total de los datos obtenidos. 
+            p.mt-3 Estas distribuciones se pueden generar para datos simples o para datos agrupados, dependiendo de los intereses de quien realiza el análisis, del tipo de dato y de la cantidad de datos. Para conocer los conceptos asociados a estas distribuciones y su aplicabilidad, descargue el material “<b>Introducción a la estadística ejemplos</b>”, donde se presenta un caso de estudio de un grupo de personas que se consideran clientes potenciales para la compra de un nuevo producto y los ejemplos de las técnicas y herramientas de la estadística, para el procesamiento de datos. 
+            p Para la visualización de las distribuciones, se utilizan diferentes elementos gráficos elaborados con las herramientas de cálculo utilizadas por el analista, y recordar que la más básica es Excel.  
     .row.justify-content-md-center.mt-3
         .col-md-10
           .tarjeta.color-tarjeta-descargas.p-3.mt-5
@@ -127,12 +127,11 @@
     #t_4_2.titulo-segundo.color-acento-contenido
       h2 4.2 Medidas de tendencia central
 
-    p.mt-5.mb-5 Las medidas de tendencia central son las que ayudan a encontrar un punto medio en el comportamiento de los datos estadísticos, para emitir conclusiones y tomar decisiones.
-    p.mb-3 Las medidas de tendencia central son:
+    p.mt-5.mb-5 Las medidas de tendencia central son las que ayudan a encontrar un punto medio en el comportamiento de los datos estadísticos, para emitir conclusiones y tomar decisiones:
     .row.justify-content-center.mt-5
       .col-md-8       
         figure
-          img(src="@/assets/curso/temas/tema4/img12.png", alt="alt") 
+          img(src="@/assets/curso/temas/tema4/img12.svg", alt="alt") 
 
     p.mt-5.mb-5 Fuera de la media aritmética como medida de tendencia central, también existen otros tipos de media, como: la media ponderada, la media geométrica y la media armónica.
     p.mb-5 Seguidamente, se presentan las fórmulas y definiciones de los otros tipos de medias:
@@ -190,14 +189,14 @@
     .row.justify-content-center.bg4.mg-img.mt-5.mg-img-final
       .col-md-10
         TabsA.color-acento-botones.mt-5.mb-5
-          .tarjeta.color-borde-slider.color-slider.p-4(titulo="Decisiones estratégicas")
+          .tarjeta.color-borde-slider.color-slider.p-4(titulo="Decisiones<br> estratégicas")
             .row.justify-content-center
               p Se ocupa de medir la desviación de cada valor del conjunto de datos, con respecto a la media aritmética. Se calcula a partir de la media aritmética de los valores absolutos de la desviación de cada valor de la variable, dividido entre la media aritmética.
                 | Dada la complejidad de estas fórmulas, el #[i software] se encarga de calcularla y, en este caso, Excel es la herramienta básica de cálculo estadístico, en la opción de “fórmulas” y “funciones estadísticas”.
               .col-md-10.mt-5.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema4/img16.png' alt='')             
-          .tarjeta.color-borde-slider.color-slider.p-4(class="small-text" titulo="Desviación estándar")
+          .tarjeta.color-borde-slider.color-slider.p-4(class="small-text" titulo="Desviación<br> estándar")
             .row.justify-content-center
               p También se conoce como desviación típica, y se denota con la letra griega sigma “σ”, o la “s” latina. Su valor representa la variación o dispersión de un conjunto de datos, considerando que:
               ul.lista-ul

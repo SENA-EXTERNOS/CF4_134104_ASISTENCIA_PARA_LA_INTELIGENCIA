@@ -22,7 +22,7 @@
           .row
             .col-md-6.mb-4.mb-md-0.p-4
               h4 Tipos de datos
-              p Los datos pueden ser cualitativos o cuantitativos, es decir, pueden representar un número o una cualidad.
+              p Los datos son de dos tipos, cualitativos o cuantitativos, es decir, pueden representar un número o una cualidad.
             .col-md-6
               figure
                 img(src="@/assets/curso/temas/tema2/img2.png", alt="alt")
@@ -84,16 +84,16 @@
 
       .row.align-items-end.bg2.h4.p-3.mt-5 Datos y variables
 
-      p.mt-5.mb-5 A continuación, podrá conocer todos los elementos relativos de los datos y las variables como elementos clave de la toma de decisiones basada en el procesamiento estadístico. Con la información suministrada, podrá comprender que los datos no son información, sino que la generan, y que los datos responden al comportamiento de las variables de cualquier proceso de análisis. Esto contribuirá en gran medida a la estructuración adecuada de sus procesos de análisis en la empresa, aportando de manera asertiva a la generación de información para la toma de decisiones en la solución de problemas y búsqueda de oportunidades. Para esto, lo invitamos a ver el siguiente video:
+      p.mt-5.mb-5 A continuación, podrá conocer todos los elementos relativos a los datos y las variables, como elementos claves de la toma de decisiones basados en el procesamiento estadístico. Con la información suministrada, podrá comprender que los datos no son información, sino que la generan, y que los datos responden al comportamiento de las variables de cualquier proceso de análisis. Esto contribuirá, en gran medida, a la estructuración adecuada de sus procesos de análisis en la empresa aportando, de manera asertiva a la generación de información para la toma de decisiones, en la solución de problemas y búsqueda de oportunidades. Para esto, lo invitamos a ver el siguiente video:
 
       figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video        
+                
 
       .row.align-items-end.bg2.h4.p-3.mt-5 Técnicas y herramientas para la recolección de datos
 
-      p.mt-5.mb-5 La recolección de datos considerada verídica y de importancia para cualquier estudio, como en el caso de los análisis empresariales, debe basarse en técnicas y herramientas manuales o digitales, de apoyo, que generen el menor riesgo y el mínimo error en la recolección. En este aspecto, se hace relevante el elemento de #[span.text-bold credibilidad] o #[span.text-bold cientificidad] de los datos, reduciendo los “juicios de valor”, es decir, presunciones, opiniones sin basamento formal, suposiciones o proyecciones no calculadas. Por eso, toda persona que recolecta datos, cuenta con un importante abanico de técnicas y herramientas o instrumentos de recolección de datos, los cuales se utilizan en las investigaciones formales.
+      p.mt-5.mb-5 La recolección de datos considerada verídica y de importancia para cualquier estudio, como en el caso de los análisis empresariales, debe basarse en técnicas y herramientas manuales o digitales, de apoyo, que generen el menor riesgo y el mínimo error en la recolección. En este aspecto, se hace relevante el elemento de <i>credibilidad</i> o <i>cientificidad</i> de los datos, reduciendo los “juicios de valor”, es decir, presunciones, opiniones sin basamento formal, suposiciones o proyecciones no calculadas. Por eso, toda persona que recolecta datos, cuenta con un importante abanico de técnicas y herramientas o instrumentos de recolección de datos, los cuales se utilizan en las investigaciones formales. 
 
       .row.justify-content-md-center.mt-3
         .col-md-10
@@ -102,10 +102,10 @@
               .col-1.mt-3
                   img(src="@/assets/curso/temas/tema2/img9.png")
               .col-md-8
-                  h3.mt-3.text-white Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.
-                  p.text-small.text-white Para profundizar en este tema descargue el siguiente material 
+                  h4.text-white Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.
+                  p.mb-0.text-white Para profundizar en este tema descargue el siguiente material 
               .col-md-1.mt-4
-                  a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
+                  a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/ANEXO_Tecnicas_herramientas_e_instrumentos_de_recoleccion_de_datos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download 
 
@@ -117,11 +117,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img10.png')})`}"
             )                             
             .bloque-texto-g__texto.p-4
-              p  La decisión con respecto a la forma de recolectar los datos, es de quien los recolecta; deben tomarse en cuenta los objetivos que se persiguen, el tipo de información que se amerita recolectar, la fuente de los datos disponibles, el tiempo disponible para la recolección, el acceso a la información, el tipo de herramientas manuales o digitales con las que cuenta, la profundidad a la que se quiere llegar con la recolección (diversas fuentes y variables), entre otros aspectos particulares de cada proceso de recolección de datos. 
-
-
-
-
+              p.mb-0 La decisión, con respecto a la forma de recolectar los datos, es de quien lo realiza; deben tomarse en cuenta los objetivos que se persiguen, el tipo de información que se necesita, la fuente de los datos disponibles, el tiempo disponible para hacerlo, el acceso a la información, el tipo de herramientas manuales o digitales con las que cuenta, la profundidad a la que se quiere llegar tener (diversas fuentes y variables), entre otros aspectos particulares de cada proceso de recolección de datos. 
 
 </template>
 

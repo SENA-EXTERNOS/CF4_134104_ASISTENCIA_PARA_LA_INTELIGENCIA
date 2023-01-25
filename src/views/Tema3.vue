@@ -25,8 +25,8 @@
             p.mt-5 La interpretación de datos, a partir de la estadística, es un avance importante en la mejora de los procesos de toma de decisiones en una empresa; este proceso corresponde al análisis basado en la evidencia, permitiendo transformar el desconocimiento y la incertidumbre del futuro, en proyecciones de datos, a través de la determinación de parámetros medibles, propios de la práctica empresarial. 
             .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
               .row.justify-content-center.p-3            
-                p Las empresas ameritan datos de entrada para el desarrollo de los procesos y, a la par, generan un sinfín de datos numéricos, los cuales, al encontrarse adecuadamente identificados, establecidos como importantes para la toma de decisiones, y medidos o recopilados de las maneras adecuadas, permitirán que la estadística genere sus aportes en el procesamiento.
-            p.mt-3 En los procesos de producción, la estadística permite hacer proyecciones de demanda con base en un mercado potencial; favorece la proyección de datos de producción, indica los cambios que deben hacerse en la compra de insumos a partir de un cambio en las necesidades de producción por aumentos de la demanda; determina la frecuencia histórica de fallas de la maquinaria; permite llevar registro histórico de mejora o bajas en los resultados de la calidad. Uno de los usos fundamentales se basa en la administración, la cual debe ofrecer a los procesos gerenciales estratégicos, información clave para la toma de decisiones, donde los datos “simples”, aislados y sin procesamiento, no generan aportes.
+                p Las empresas ameritan datos de entrada para el desarrollo de los procesos y, a la par, generan un sinfín de datos numéricos, los cuales, al encontrarse adecuadamente identificados, establecidos como importantes para la toma de decisiones y medidos o recopilados de las maneras adecuadas, permitirán que la estadística genere sus aportes en el procesamiento. 
+            p.mt-3 En los procesos de producción, la estadística permite hacer proyecciones de demanda con base en un mercado potencial; favorece la proyección de datos de producción, indica los cambios que deben hacerse en la compra de insumos a partir de un cambio en las necesidades de producción por aumentos de la demanda; determina la frecuencia histórica de fallas de la maquinaria; permite llevar registro histórico de mejora o bajas en los resultados de la calidad. Uno de los usos fundamentales, se basa en la administración, la cual debe ofrecer a los procesos gerenciales estratégicos, información clave para la toma de decisiones, donde los datos “simples”, aislados y sin procesamiento, no generan aportes.
           .col-sm-5.mb-3.mt-5
             figure
               img(src="@/assets/curso/temas/tema3/img2.png", alt="alt")
@@ -40,7 +40,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido.mt-5
       h2 3.1 Estadística descriptiva
 
-    p.mt-5.mb-5 La estadística descriptiva es la rama de la estadística que inicia desde el proceso de recolectar datos, para pasar a organizar el conjunto de datos bajo criterios de análisis (parámetros), agruparlos y procesarlos, emitiendo frecuencias de ocurrencia y proporciones de frecuencia, a través de generar conclusiones con respecto al comportamiento de los datos, por medio de tablas o gráficos. La estadística descriptiva, aunque #[span.text-bold no predice comportamientos futuros], sí permite explicar el comportamiento actual de los datos para la muestra precisa de datos que se estén procesando.   
+    p.mt-5.mb-5 La estadística descriptiva es la rama de la estadística que inicia desde el proceso de recolectar datos, para pasar a organizar el conjunto de datos bajo criterios de análisis (parámetros), agruparlos y procesarlos, emitiendo frecuencias de ocurrencia y proporciones de frecuencia, a través de generar conclusiones con respecto al comportamiento de los datos, por medio de tablas o gráficos. La estadística descriptiva, aunque <b>no predice comportamientos futuros</b>, sí permite explicar el comportamiento actual de los datos para la muestra precisa de datos que se estén procesando.  
 
     .row.justify-content-md-center.mt-3
       .col-md-10
@@ -49,10 +49,10 @@
             .col-auto.mt-3
                 img(src="@/assets/curso/temas/tema2/img9.png")
             .col-md-8
-                h3.mt-3.text-white Caso de estudio empresarial
-                p.text-small.text-white Para conocer un caso de estudio empresarial donde se aplican los conceptos básicos de la estadística descriptiva, lo invitamos descargar el siguiente material.      
+                h4.mt-3.text-white Caso de estudio empresarial
+                p.mb-0.text-white Para conocer un caso de estudio empresarial donde se aplican los conceptos básicos de la estadística descriptiva, lo invitamos descargar el siguiente material.      
             .col-lg-1.mt-4
-                a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Caso de estudio empresarial.pdf')" target="_blank")
+                a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/ANEXO_Caso_de_estudio_empresarial.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download 
 
@@ -87,7 +87,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido.mt-5
       h2 3.2 Población y muestra estadística
 
-    p.mt-5.mb-5 En los estudios estadísticos, se utilizan dos términos fundamentales: población y muestra. Se trata de los elementos de los cuales se requiere extraer u obtener los datos para el análisis cualitativo o cuantitativo que se vaya a desarrollar.
+    p.mt-5.mb-5 En los estudios estadísticos, se utilizan dos términos fundamentales: población y muestra. Se trata de los elementos de los cuales se requiere extraer u obtener los datos para el análisis cualitativo o cuantitativo que se vaya a desarrollar:
 
     .row.justify-content-center.mt-5.p-5
       .col-md-10
