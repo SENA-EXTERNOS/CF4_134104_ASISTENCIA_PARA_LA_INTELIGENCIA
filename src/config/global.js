@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Procesamiento estadístico de datos',
     descripcionCurso:
-      'El procesamiento estadístico de datos se refiere a la interpretación de los datos cuantitativos obtenidos de los procesos de la empresa, o los datos externos a esta y a las técnicas estadísticas, a través de herramientas informáticas, de donde se derive información específica de variables o conjunto de variables, para la toma de decisiones.',
+      'El procesamiento estadístico de datos se refiere a la interpretación de los datos cuantitativos obtenidos de los procesos de la empresa, o los datos externos a ésta y a las técnicas estadísticas, a través de herramientas informáticas, de donde se derive información específica de variables o conjunto de variables, para la toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

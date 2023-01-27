@@ -50,7 +50,7 @@
                 img(src="@/assets/curso/temas/tema2/img9.png")
             .col-md-8
                 h4.mt-3.text-white Caso de estudio empresarial
-                p.mb-0.text-white Para conocer un caso de estudio empresarial donde se aplican los conceptos básicos de la estadística descriptiva, lo invitamos descargar el siguiente material.      
+                p.mb-0.text-white Para conocer un caso de estudio empresarial donde se aplican los conceptos básicos de la estadística descriptiva, lo invitamos a descargar el siguiente material.      
             .col-lg-1.mt-4
                 a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/ANEXO_Caso_de_estudio_empresarial.pdf')" target="_blank")
                   span Descargar
