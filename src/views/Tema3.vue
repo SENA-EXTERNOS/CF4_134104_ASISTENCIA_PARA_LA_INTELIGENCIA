@@ -81,7 +81,7 @@
         img(src='@/assets/curso/temas/tema3/img5.png' alt='')
         .tarjeta.he-tarjetas.color-tarjeta-avatar.p-3
           h2.text-center.mt-5 Porcentajes
-          p.text-center Reflejan la expresión numérica de mayor utilidad estadística, ya que indican, sobre la base de una población total de datos, cuántos o cuáles corresponden a los resultados más altos o más bajos; es decir, especifica en qué tipo de datos se dan las mayores ocurrencias. Son estos porcentajes los que permiten generar las conclusiones de los estudios estadísticos. 
+          p.text-center Reflejan la expresión numérica de mayor utilidad estadística, ya que indican, sobre la base de una población total de datos, cuántos o cuáles corresponden a los resultados más altos o más bajos; es decir, específica en qué tipo de datos se dan las mayores ocurrencias. Son estos porcentajes los que permiten generar las conclusiones de los estudios estadísticos. 
 
     <Separador></Separador>
     #t_3_2.titulo-segundo.color-acento-contenido.mt-5

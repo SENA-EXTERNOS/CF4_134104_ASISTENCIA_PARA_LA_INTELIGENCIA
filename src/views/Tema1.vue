@@ -174,7 +174,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img12.png')})`}"
             )                             
             .bloque-texto-g__texto.bloque-text-rigth.p-4
-              p  La clave para la existencia de Sistemas de Información en la empresa, no es la “moda” o el costo, sino la funcionalidad de acuerdo con las necesidades del manejo de los datos en el sistema empresarial. Al respecto, es responsabilidad de la gerencia seleccionar los Sistemas de Información más adecuados para la empresa y, además, brindar capacitaciones al personal sobre el manejo de estas valiosas herramientas.
+              p  La clave para la existencia de Sistemas de Información en la empresa, no es la “moda” o el costo, si no la funcionalidad de acuerdo con las necesidades del manejo de los datos en el sistema empresarial. Al respecto, es responsabilidad de la gerencia seleccionar los Sistemas de Información más adecuados para la empresa y, además, brindar capacitaciones al personal sobre el manejo de estas valiosas herramientas.
 
       .row.mt-5.align-items-end.bg2.h4.p-3 Tendencias en el uso de los datos en las empresas 
       
@@ -196,7 +196,7 @@
                 :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img13.png')})`}"
               )                             
               .bloque-texto-g__texto.p-4
-                p  La importancia de los Sistemas de Información no está basada en su complejidad, sino en cuánto aportan a la tenencia oportuna de información para la toma de decisiones en la empresa, qué tan sencillos son para que el personal los puedan administrar y qué tanta capacidad posee la empresa para el mantenimiento y sostenibilidad de estos sistemas.
+                p  La importancia de los Sistemas de Información no está basada en su complejidad, si no en cuánto aportan a la tenencia oportuna de información para la toma de decisiones en la empresa, qué tan sencillos son para que el personal los puedan administrar y qué tanta capacidad posee la empresa para el mantenimiento y sostenibilidad de estos sistemas.
 
   </template>
 

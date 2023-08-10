@@ -266,7 +266,8 @@ export default {
     {
       referencia:
         'Hernández, R., Fernández, C. & Baptista, P. (2010). <i>Metodología de la investigación<i>. McGraw-Hill.',
-      link: '',
+      link:
+        'https://www.uv.mx/personal/cbustamante/files/2011/06/Metodologia-de-la-InvestigaciÃ³n_Sampieri.pdf',
     },
     {
       referencia:

@@ -183,7 +183,7 @@
             .row.justify-content-center.p-3                
                 p Mientras se propinen datos más dispersos, que puedan ser visualizados en herramientas gráficas, mayor es la inexactitud del conjunto de datos, y más complicado se hace encontrar una tendencia en el comportamiento de dicho conjunto. Se buscan entonces, datos “agrupados”.
 
-    p.mt-5.mb-5 La dispersión puede ser absoluta o relativa. Esta última, se utiliza en estudios estadísticos complejos en los que las variables toman incluso, diferentes unidades de medida. Pero, en la estadística descriptiva, la dispersión de mayor uso es la absoluta, la cual corresponde al análisis de la variable en la medida real en la que se presenta, sin modificarla, transformando entonces, la dispersión clásica de los estudios estadísticos en la empresa. En ciencias más complejas como la medicina, la física o la química, en las que se desarrollan experimentos, se utiliza la dispersión relativa con sus respectivas fórmulas y parámetros de interés.
+    p.mt-5.mb-5 La dispersión puede ser absoluta o relativa. Esta última se utiliza en estudios estadísticos complejos en los que las variables toman incluso, diferentes unidades de medida. Pero, en la estadística descriptiva, la dispersión de mayor uso es la absoluta, la cual corresponde al análisis de la variable en la medida real en la que se presenta, sin modificarla, transformando entonces, la dispersión clásica de los estudios estadísticos en la empresa. En ciencias más complejas como la medicina, la física o la química, en las que se desarrollan experimentos, se utiliza la dispersión relativa con sus respectivas fórmulas y parámetros de interés.
     p.mb-5 Las medidas de dispersión absoluta más utilizadas y que ofrecen la mejor información como apoyo al análisis previo de las medidas de tendencia central, son:
 
     .row.justify-content-center.bg4.mg-img.mt-5.mg-img-final
@@ -191,8 +191,7 @@
         TabsA.color-acento-botones.mt-5.mb-5
           .tarjeta.color-borde-slider.color-slider.p-4(titulo="Decisiones<br> estratégicas")
             .row.justify-content-center
-              p Se ocupa de medir la desviación de cada valor del conjunto de datos, con respecto a la media aritmética. Se calcula a partir de la media aritmética de los valores absolutos de la desviación de cada valor de la variable, dividido entre la media aritmética.
-                | Dada la complejidad de estas fórmulas, el #[i software] se encarga de calcularla y, en este caso, Excel es la herramienta básica de cálculo estadístico, en la opción de “fórmulas” y “funciones estadísticas”.
+              p Se ocupa de medir la desviación de cada valor del conjunto de datos, con respecto a la media aritmética. Se calcula a partir de la media aritmética de los valores absolutos de la desviación de cada valor de la variable, dividido entre la media aritmética. Dada la complejidad de estas fórmulas, el #[i software] se encarga de calcularla y, en este caso, Excel es la herramienta básica de cálculo estadístico, en la opción de “fórmulas” y “funciones estadísticas”.
               .col-md-10.mt-5.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema4/img16.png' alt='')             
