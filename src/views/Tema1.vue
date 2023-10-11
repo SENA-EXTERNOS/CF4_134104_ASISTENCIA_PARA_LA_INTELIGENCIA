@@ -185,7 +185,7 @@
             .row.justify-content-center.align-items-center.p-4                
               p Las empresas, en la búsqueda de la competitividad, están optando por incorporarse al uso de Sistemas de Información Tecnológicos, en los que se busca prescindir de documentos físicos, facilitar la obtención y flujo de la información entre procesos o unidades organizativas.  
       
-      p.mt-5.mb5 Debe tenerse en cuenta que, en medio de la virtualización de los procesos, las empresas han debido generar cambios en sus sistemas de trabajo, lo que ha ameritado la incorporación, rediseño y/o fortalecimiento de sus Sistemas de Información.      
+      p.mt-5.mb5 Debe tenerse en cuenta que, en medio de la virtualización de los procesos, las empresas han debido generar cambios en sus sistemas de trabajo, lo que amerita la incorporación, rediseño y/o fortalecimiento de sus Sistemas de Información.      
 
 
       .row.justify-content-center.bg4.mg-img.mt-5.mb-5.mg-img-final
@@ -196,7 +196,7 @@
                 :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img13.png')})`}"
               )                             
               .bloque-texto-g__texto.p-4
-                p  La importancia de los Sistemas de Información no está basada en su complejidad, si no en cuánto aportan a la tenencia oportuna de información para la toma de decisiones en la empresa, qué tan sencillos son para que el personal los puedan administrar y qué tanta capacidad posee la empresa para el mantenimiento y sostenibilidad de estos sistemas.
+                p  La importancia de los Sistemas de Información no está basada en su complejidad, si no en cuánto aportan a la tenencia oportuna de información para la toma de decisiones en la empresa, qué tan sencillos son para que el personal los pueda administrar y qué tanta capacidad posee la empresa para el mantenimiento y sostenibilidad de estos sistemas.
 
   </template>
 

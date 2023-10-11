@@ -54,7 +54,7 @@
               .row.justify-content-center.p-3             
                 p.mb-0 Las distribuciones de frecuencia, facilitan la tabulación básica de los datos de entrada de un estudio, su conteo y el cálculo de las proporciones, sobre la base del total de los datos obtenidos. 
             p.mt-3 Estas distribuciones se pueden generar para datos simples o para datos agrupados, dependiendo de los intereses de quien realiza el análisis, del tipo de dato y de la cantidad de datos. Para conocer los conceptos asociados a estas distribuciones y su aplicabilidad, descargue el material “<b>Introducción a la estadística ejemplos</b>”, donde se presenta un caso de estudio de un grupo de personas que se consideran clientes potenciales para la compra de un nuevo producto y los ejemplos de las técnicas y herramientas de la estadística, para el procesamiento de datos. 
-            p Para la visualización de las distribuciones, se utilizan diferentes elementos gráficos elaborados con las herramientas de cálculo utilizadas por el analista, y recordar que la más básica es Excel.  
+
     .row.justify-content-md-center.mt-3
         .col-md-10
           .tarjeta.color-tarjeta-descargas.p-3.mt-5
@@ -63,7 +63,7 @@
                   img(src="@/assets/curso/temas/tema2/img9.png")
               .col-md-8
                   h3.mt-3.text-white Introducción a la estadística ejemplos
-                  p.text-small.text-white Para la visualización de las distribuciones, se utilizan diferentes elementos gráficos elaborados con las herramientas de cálculo utilizadas por el analista, y recordar que la más básica es Excel.
+                  p.mb-0.text-white Para la visualización de las distribuciones, se utilizan diferentes elementos gráficos elaborados con las herramientas de cálculo utilizadas por el analista, y recordar que la más básica es #[i Excel.]
               .col-md-1.mt-4
                   a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Introduccion.pdf')" target="_blank")
                     span Descargar
@@ -116,7 +116,6 @@
                 img(src="@/assets/curso/temas/tema4/img10.png", alt="alt")  
           .row
             .col-md-6.mb-4.mb-md-0.p-4
-              h4 Ojivas
               p La ojiva permite visualizar dónde se acumula la mayor cantidad de porcentajes de frecuencia. Para el ejemplo, más del 50 %, específicamente el 53 % de los posibles compradores del producto, se encuentran en edad comprendida entre los 18 y los 45 años. Esta información orienta hacia dónde la empresa debe, por ejemplo, dirigir la estrategia de venta, de publicidad, o el diseño mismo del producto, cuando se trata de un estudio de mercado. 
             .col-md-6
               figure
@@ -191,7 +190,7 @@
         TabsA.color-acento-botones.mt-5.mb-5
           .tarjeta.color-borde-slider.color-slider.p-4(titulo="Decisiones<br> estratégicas")
             .row.justify-content-center
-              p Se ocupa de medir la desviación de cada valor del conjunto de datos, con respecto a la media aritmética. Se calcula a partir de la media aritmética de los valores absolutos de la desviación de cada valor de la variable, dividido entre la media aritmética. Dada la complejidad de estas fórmulas, el #[i software] se encarga de calcularla y, en este caso, Excel es la herramienta básica de cálculo estadístico, en la opción de “fórmulas” y “funciones estadísticas”.
+              p Se ocupa de medir la desviación de cada valor del conjunto de datos, con respecto a la media aritmética. Se calcula a partir de la media aritmética de los valores absolutos de la desviación de cada valor de la variable, dividido entre la media aritmética. Dada la complejidad de estas fórmulas, el #[i software] se encarga de calcularla y, en este caso, #[i Excel] es la herramienta básica de cálculo estadístico, en la opción de “fórmulas” y “funciones estadísticas”.
               .col-md-10.mt-5.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema4/img16.png' alt='')             

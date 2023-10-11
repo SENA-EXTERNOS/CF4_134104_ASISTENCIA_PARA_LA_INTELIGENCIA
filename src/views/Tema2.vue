@@ -14,7 +14,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/img1.png", alt="alt")
           .col-sm-8.mb-3
-            p.mt-5 Un dato es considerado una representación, ya sea numérica, alfanumérica o alfabética, acerca de atributos o características de objetos, o resultados de procesos. Para Magdalena (2019), “los datos son la materia prima de la estadística. Los datos salen de las mediciones o también llamadas observaciones” (p.50). En el marco del procesamiento de los datos, estos no tienen un valor en sí mismos, es decir, el dato aislado no aporta algo, si no se analiza en conjunto con otros datos, para generar información integrada a través de procesos de cálculo con diferentes herramientas, de lo que se obtenga un número o números traducidos en información, lo que dispone de gran importancia al generar conclusiones para un fenómeno estudiado, y para orientar la toma de decisiones.
+            p.mt-5 Un dato es considerado una representación, ya sea numérica, alfanumérica o alfabética, acerca de atributos o características de objetos, o resultados de procesos. Para Magdalena (2019), “los datos son la materia prima de la estadística. Los datos salen de las mediciones o también llamadas observaciones” (p.50). En el marco del procesamiento de los datos, estos no tienen un valor en sí mismos, es decir, el dato aislado no aporta algo, si no se analiza en conjunto con otros datos, para generar información integrada a través de procesos de cálculo con diferentes herramientas, de lo que se obtenga un número o números traducidos en información, lo que dispone de gran importancia al generar conclusiones para un fenómeno estudiado y para orientar la toma de decisiones.
 
 
       .tarjeta.color-borde-slider.color-slider.p-3.mt-5
@@ -117,7 +117,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img10.png')})`}"
             )                             
             .bloque-texto-g__texto.p-4
-              p.mb-0 La decisión, con respecto a la forma de recolectar los datos, es de quien lo realiza; deben tomarse en cuenta los objetivos que se persiguen, el tipo de información que se necesita, la fuente de los datos disponibles, el tiempo disponible para hacerlo, el acceso a la información, el tipo de herramientas manuales o digitales con las que cuenta, la profundidad a la que se quiere llegar tener (diversas fuentes y variables), entre otros aspectos particulares de cada proceso de recolección de datos. 
+              p.mb-0 La decisión, con respecto a la forma de recolectar los datos, es de quien lo realiza; deben tomarse en cuenta los objetivos que se persiguen, el tipo de información que se necesita, la fuente de los datos disponibles, el tiempo disponible para hacerlo, el acceso a la información, el tipo de herramientas manuales o digitales con las que cuenta, la profundidad a la que se quiere llegara tener (diversas fuentes y variables), entre otros aspectos particulares de cada proceso de recolección de datos. 
 
 </template>
 
